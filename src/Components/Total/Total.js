@@ -1,5 +1,6 @@
 import React from 'react';
 import './Total.css';
+
 const Total = (props) => {
     const {total} = props;
     let newTota = 0;
@@ -11,7 +12,9 @@ const Total = (props) => {
                 <h3>Employee Added: {props.total.length}</h3>
                 <p>Total expenses for salary: ${newTota}</p>
                 {
-                    props.total.map(name => <div>Employee Name: {name.name} </div>)
+                    props.total.map(name => <ul>
+                        Employee Name: {name.name}
+                    </ul>)
                 }
         </div>
     );
