@@ -1,0 +1,17 @@
+.total-body{
+    height: 400px;
+    width: 300px;
+    background-color: lightgray;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.total-body:hover{
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+    border: 1px solid lightslategrey;
+    background-color: azure;
+}
+
+.emplee-name{
+    overflow: hidden;
+}

@@ -1,0 +1,36 @@
+.cart-body{
+    margin-bottom: 10px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    background-color: lightgray;
+    height: 350px;
+    width: 260px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    float: left;
+    margin-left: 15px;
+    transition: 0.6s;
+}
+.cart-body:hover{
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+    border: 1px solid lightslategrey;
+    background-color: azure;
+}
+.card-element{
+    margin-left: 40px;
+}
+.cart-body img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.btn-regular{
+    background-color: rgb(125, 167, 230);
+    width: 100px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+}
