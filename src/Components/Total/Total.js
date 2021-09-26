@@ -1,6 +1,6 @@
 import React from 'react';
 import './Total.css';
-
+// uyt
 const Total = (props) => {
     const {total} = props;
     let newTota = 0;
